@@ -23,11 +23,16 @@ body {
 }
 
 .description {
-    width: 300px;
+    /* width: 300px; */
     margin: 15px 0px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 15px;
     font-weight: 400;
+}
+
+.image {
+    width: 120px;
+    height: 180px;
 }
 
 /* header section */
@@ -51,3 +56,71 @@ body {
 .header-title {
     font-size: 50px;
 }
+
+/* featured section start here */
+.featured {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.first-image {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 200px;
+    height: 180px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.second-image {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 200px;
+    height: 180px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.third-image {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 200px;
+    height: 180px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.image-container p {
+    color: #272727;
+    font-size: 15px;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+/* service section start */
+.service-container {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 700px;
+    height: 180px;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.delevary ,.fresh-flower, .free-support, a{
+    text-align: center;
+}
+
