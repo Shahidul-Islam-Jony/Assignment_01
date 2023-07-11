@@ -155,6 +155,27 @@ body {
     text-align: center;
 }
 
+/* My section (Todays special discount) section style */
+.special-discount{
+    margin-top: 100px;
+    background-color: rgba(0, 255, 255, 0.074);
+    height: 400px;
+    padding-top: 50px;
+}
+
+.special-flower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px
+}
+.special-flower img{
+    height: 250px;
+    width: 200px;
+    box-shadow: 8px 8px 5px rgba(128, 128, 128, 0.559);
+}
+
 /* Instagram section style */
 .instagram{
     margin-top: 80px;
