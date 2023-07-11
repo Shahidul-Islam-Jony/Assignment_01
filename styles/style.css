@@ -20,6 +20,7 @@ body {
     color: #272727;
     font-size: 30px;
     font-weight: 800;
+    text-align: center;
 }
 
 .description {
@@ -28,11 +29,15 @@ body {
     color: rgba(39, 39, 39, 0.60);
     font-size: 15px;
     font-weight: 400;
+    text-align: center;
 }
 
 .image {
     width: 120px;
     height: 180px;
+}
+.pink{
+    color: #E55473;
 }
 
 /* header section */
@@ -55,6 +60,10 @@ body {
 
 .header-title {
     font-size: 50px;
+    text-align: left;
+}
+.header-des{
+    text-align: left;
 }
 
 /* featured section start here */
@@ -116,11 +125,53 @@ body {
     justify-content: space-around;
     align-items: center;
 }
-.icon{
+
+.icon {
     height: 50px;
     width: 50px;
 }
-.delevary ,.fresh-flower, .free-support, a{
+
+.delevary,
+.fresh-flower,
+.free-support{
     text-align: center;
 }
 
+/* hot deal section style */
+.hot-deal-container {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 80px;
+    justify-content:center;
+    gap:100px;
+    align-items: center;
+    height: 350px;
+}
+.hot-deal-text ,button{
+    text-align: center;
+}
+
+/* Instagram section style */
+.instagram{
+    margin-top: 80px;
+}
+.instagram-image{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+.instagram-image div img{
+    width:200px;
+    height: 220px;
+}
+
+/* latest deal section style */
+.background{
+    background-image: url("../Flower Asset/Rectangle\ 9.png");
+    background-size: cover;
+    width: 900px;
+    height: 300px;
+    margin: auto;
+    margin-top: 80px;
+}
