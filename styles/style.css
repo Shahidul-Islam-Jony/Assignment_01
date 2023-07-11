@@ -11,7 +11,7 @@ body {
 .btn {
     border-radius: 8px;
     background: #E55473;
-    padding: 10px 20px;
+    padding: 15px 30px;
     border: none;
     color: white;
 }
@@ -30,11 +30,12 @@ body {
     font-size: 15px;
     font-weight: 400;
     text-align: center;
+    font-weight: 400;
 }
 
 .image {
-    width: 120px;
-    height: 180px;
+    width: 200px;
+    height: 290px;
 }
 .pink{
     color: #E55473;
@@ -74,15 +75,15 @@ body {
 
 .image-container {
     display: flex;
-    gap: 50px;
+    gap: 20px;
     justify-content: center;
 }
 
 .first-image {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    width: 200px;
-    height: 180px;
+    width: 300px;
+    height: 290px;
     text-align: center;
     padding-top: 50px;
 
@@ -91,8 +92,8 @@ body {
 .second-image {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    width: 200px;
-    height: 180px;
+    width: 300px;
+    height: 290px;
     text-align: center;
     padding-top: 50px;
 }
@@ -100,8 +101,8 @@ body {
 .third-image {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    width: 200px;
-    height: 180px;
+    width: 300px;
+    height: 290px;
     text-align: center;
     padding-top: 50px;
 }
@@ -111,6 +112,7 @@ body {
     font-size: 15px;
     text-decoration: underline;
     margin-top: 10px;
+    font-weight: bold;
 }
 
 /* service section start */
@@ -118,17 +120,18 @@ body {
     display: flex;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    width: 700px;
-    height: 180px;
+    width: 950px;
+    height: 200px;
     margin: auto;
-    margin-top: 80px;
-    justify-content: space-around;
+    margin-top: 100px;
+    justify-content: center;
+    gap: 48px;
     align-items: center;
 }
 
 .icon {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
 }
 
 .delevary,
@@ -146,7 +149,7 @@ body {
     justify-content:center;
     gap:100px;
     align-items: center;
-    height: 350px;
+    height: 400px;
 }
 .hot-deal-text ,button{
     text-align: center;
@@ -162,26 +165,51 @@ body {
     gap:20px;
 }
 .instagram-image div img{
-    width:200px;
-    height: 220px;
+    width:220px;
+    height: 250px;
 }
 
 /* latest deal section style */
 .background{
     background-image: url("../Flower Asset/Rectangle\ 9.png");
     background-size: cover;
-    width: 900px;
+    width: 950px;
     height: 300px;
     margin: auto;
     margin-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 8px;
 }
 .deal-content input{
-    width: 320px;
-    height: 35px;
+    width: 450px;
+    height: 30px;
     border: 0;
+    padding: 8px;
     border-radius: 5px;
-    margin-right: 5px;
+    margin-right: 8px;
+}
+
+/* footer style start from here */
+
+.footer-background{
+    background-color: #111010;
+    margin-top: 80px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title{
+    color: white;
+}
+.footer-des{
+    color: rgba(255, 255, 255, 0.792);
+}
+small{
+    margin-top: 30px;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.40);
+    margin-left: 130px;
 }
